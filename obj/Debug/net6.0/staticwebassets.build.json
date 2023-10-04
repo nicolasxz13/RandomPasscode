@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "MzhWgWUFr+QyyKXiQAlJkcScEy6mXAqbAOBVZjXIgbs=",
+  "Source": "RandomPasscode",
+  "BasePath": "_content/RandomPasscode",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RandomPasscode\\wwwroot",
+      "Source": "RandomPasscode",
+      "ContentRoot": "C:\\Users\\nicol\\Desktop\\Bootcamp Coding Dojo c#\\ASP.NET Core\\RandomPasscode\\wwwroot\\",
+      "BasePath": "_content/RandomPasscode",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\nicol\\Desktop\\Bootcamp Coding Dojo c#\\ASP.NET Core\\RandomPasscode\\wwwroot\\css\\styles.css",
+      "SourceId": "RandomPasscode",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nicol\\Desktop\\Bootcamp Coding Dojo c#\\ASP.NET Core\\RandomPasscode\\wwwroot\\",
+      "BasePath": "_content/RandomPasscode",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    }
+  ]
+}

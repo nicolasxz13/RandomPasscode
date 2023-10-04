@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "A Web Page";
+}
+<div class="centerblock">
+    <h1>Random passcode #@Context.Session.GetInt32("countPasscode")</h1>
+    <div class="blocks">
+        <p class="passcode">@Context.Session.GetString("Passcode")</p>
+    </div>
+    <form asp-action="Getcode" asp-controller="Passcode" method="post">
+        <div class="blocks submitbutton">
+            <button type="submit" class="btn1">Generate</button>
+        </div>
+    </form>
+</div>
